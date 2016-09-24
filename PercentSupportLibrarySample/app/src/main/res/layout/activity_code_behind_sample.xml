@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/noSizeBox"
+        android:background="@color/colorAccentThird"
+        app:layout_heightPercent="0%"
+        app:layout_widthPercent="0%"
+        app:layout_marginRightPercent="0%"
+        android:layout_centerInParent="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+</android.support.percent.PercentRelativeLayout>
